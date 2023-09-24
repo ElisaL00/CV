@@ -1,0 +1,164 @@
+body {
+
+    color: #213a5c;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 2.0;
+    margin: 0;
+}
+
+section {
+    padding: 20px 10%;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+p {
+    text-align: center;
+}
+
+a:visited {
+    color: #213a5c;
+}
+
+/* Menu */
+
+.jmeno-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: right;       
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    text-decoration: none;
+    display: block;
+    margin: 10px 20px;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.menu a:hover {
+    border-bottom: 2px solid #213a5c; 
+}
+
+/* Jméno u Menu*/
+
+.jmeno {
+    text-align: left;
+    font-weight: bold;
+    padding-left: 20px; 
+}
+
+/* Hlavička stránky */
+
+h1 {
+   margin: 0;
+   font-size: 80px;
+   margin-left: 40px;
+}
+
+.podnadpis {
+    font-style: italic;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.hlavicka {
+    background-color: #bdc7cd; 
+    display: flex;
+    justify-content:space-between;
+    align-items: center; 
+}
+
+.hlavicka img {
+    height: 600px;
+    float: right; 
+}
+
+/* Sekce pracovní zkušenosti */
+
+.pracovni-zkusenosti {
+    background-color: #bdc7cd;
+}
+
+/* Sekce kurzy */
+    
+.kurzy {
+  background-color: #bdc7cd;
+  padding-bottom: 3%;
+}
+
+table {
+    margin: auto;
+    border-spacing: 0;
+}
+
+th, td {
+    border-bottom: 1px solid #213a5c;
+    padding: 10px 0;
+}
+
+.nazev-kurzu {
+    padding-left: 5%;
+}
+
+/* Dovednosti */
+
+.seznam-dovednosti {
+    list-style-type: square;    
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+/* Volný čas */
+
+.volny-cas {
+    background-color: #bdc7cd;
+}
+
+.fotky {
+    text-align: center;
+}
+
+.fotky img {
+    width: 16%;
+}
+
+/* Kontakt */
+
+.kontakt a {
+    text-decoration: none;
+    color: #213a5c;
+    margin: 10px;    
+}
+
+.kontakt-ikony {
+    text-align: center;
+}
+
+/* Patička stránky */
+
+footer {
+    background-color: #bdc7cd;
+    padding: 5px 0;
+}
